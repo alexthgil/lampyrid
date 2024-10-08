@@ -11,6 +11,17 @@
 		FA3021002CB573BD00C45EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3020FF2CB573BD00C45EDF /* ContentView.swift */; };
 		FA3021022CB573BE00C45EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3021012CB573BE00C45EDF /* Assets.xcassets */; };
 		FA3021052CB573BE00C45EDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3021042CB573BE00C45EDF /* Preview Assets.xcassets */; };
+		FA30211B2CB5773400C45EDF /* PeripheralDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30210C2CB5773400C45EDF /* PeripheralDeviceManager.swift */; };
+		FA30211C2CB5773400C45EDF /* EditColorPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30210E2CB5773400C45EDF /* EditColorPanelView.swift */; };
+		FA30211D2CB5773400C45EDF /* EditColorPanelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30210F2CB5773400C45EDF /* EditColorPanelViewModel.swift */; };
+		FA30211E2CB5773400C45EDF /* EditColorActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021102CB5773400C45EDF /* EditColorActionButtonView.swift */; };
+		FA30211F2CB5773400C45EDF /* EditColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021122CB5773400C45EDF /* EditColorSliderView.swift */; };
+		FA3021202CB5773400C45EDF /* LampTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021142CB5773400C45EDF /* LampTabView.swift */; };
+		FA3021212CB5773400C45EDF /* ColorsCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021162CB5773400C45EDF /* ColorsCollectionViewModel.swift */; };
+		FA3021222CB5773400C45EDF /* ColorsCollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021182CB5773400C45EDF /* ColorsCollectionCellView.swift */; };
+		FA3021232CB5773400C45EDF /* ColorsCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021192CB5773400C45EDF /* ColorsCollectionItem.swift */; };
+		FA3021242CB5773400C45EDF /* ColorsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30211A2CB5773400C45EDF /* ColorsCollectionView.swift */; };
+		FA3021262CB5777C00C45EDF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3021252CB5777C00C45EDF /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		FA3020FF2CB573BD00C45EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA3021012CB573BE00C45EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3021042CB573BE00C45EDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA30210C2CB5773400C45EDF /* PeripheralDeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralDeviceManager.swift; sourceTree = "<group>"; };
+		FA30210E2CB5773400C45EDF /* EditColorPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditColorPanelView.swift; sourceTree = "<group>"; };
+		FA30210F2CB5773400C45EDF /* EditColorPanelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditColorPanelViewModel.swift; sourceTree = "<group>"; };
+		FA3021102CB5773400C45EDF /* EditColorActionButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditColorActionButtonView.swift; sourceTree = "<group>"; };
+		FA3021122CB5773400C45EDF /* EditColorSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditColorSliderView.swift; sourceTree = "<group>"; };
+		FA3021142CB5773400C45EDF /* LampTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LampTabView.swift; sourceTree = "<group>"; };
+		FA3021162CB5773400C45EDF /* ColorsCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewModel.swift; sourceTree = "<group>"; };
+		FA3021182CB5773400C45EDF /* ColorsCollectionCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCollectionCellView.swift; sourceTree = "<group>"; };
+		FA3021192CB5773400C45EDF /* ColorsCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCollectionItem.swift; sourceTree = "<group>"; };
+		FA30211A2CB5773400C45EDF /* ColorsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCollectionView.swift; sourceTree = "<group>"; };
+		FA3021252CB5777C00C45EDF /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +75,12 @@
 			children = (
 				FA3020FD2CB573BD00C45EDF /* LampyridApp.swift */,
 				FA3020FF2CB573BD00C45EDF /* ContentView.swift */,
+				FA3021252CB5777C00C45EDF /* AppModel.swift */,
 				FA3021012CB573BE00C45EDF /* Assets.xcassets */,
+				FA30210B2CB5773400C45EDF /* BTConnection */,
+				FA3021152CB5773400C45EDF /* ColorsCollection */,
+				FA30210D2CB5773400C45EDF /* EditColorPanel */,
+				FA3021132CB5773400C45EDF /* LampTab */,
 				FA3021032CB573BE00C45EDF /* Preview Content */,
 			);
 			path = Lampyrid;
@@ -65,6 +92,60 @@
 				FA3021042CB573BE00C45EDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA30210B2CB5773400C45EDF /* BTConnection */ = {
+			isa = PBXGroup;
+			children = (
+				FA30210C2CB5773400C45EDF /* PeripheralDeviceManager.swift */,
+			);
+			path = BTConnection;
+			sourceTree = "<group>";
+		};
+		FA30210D2CB5773400C45EDF /* EditColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				FA30210E2CB5773400C45EDF /* EditColorPanelView.swift */,
+				FA30210F2CB5773400C45EDF /* EditColorPanelViewModel.swift */,
+				FA3021102CB5773400C45EDF /* EditColorActionButtonView.swift */,
+				FA3021112CB5773400C45EDF /* EditColorSlider */,
+			);
+			path = EditColorPanel;
+			sourceTree = "<group>";
+		};
+		FA3021112CB5773400C45EDF /* EditColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FA3021122CB5773400C45EDF /* EditColorSliderView.swift */,
+			);
+			path = EditColorSlider;
+			sourceTree = "<group>";
+		};
+		FA3021132CB5773400C45EDF /* LampTab */ = {
+			isa = PBXGroup;
+			children = (
+				FA3021142CB5773400C45EDF /* LampTabView.swift */,
+			);
+			path = LampTab;
+			sourceTree = "<group>";
+		};
+		FA3021152CB5773400C45EDF /* ColorsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				FA3021162CB5773400C45EDF /* ColorsCollectionViewModel.swift */,
+				FA3021172CB5773400C45EDF /* ColorsCollectionCell */,
+				FA30211A2CB5773400C45EDF /* ColorsCollectionView.swift */,
+			);
+			path = ColorsCollection;
+			sourceTree = "<group>";
+		};
+		FA3021172CB5773400C45EDF /* ColorsCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA3021182CB5773400C45EDF /* ColorsCollectionCellView.swift */,
+				FA3021192CB5773400C45EDF /* ColorsCollectionItem.swift */,
+			);
+			path = ColorsCollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3021212CB5773400C45EDF /* ColorsCollectionViewModel.swift in Sources */,
+				FA3021202CB5773400C45EDF /* LampTabView.swift in Sources */,
 				FA3021002CB573BD00C45EDF /* ContentView.swift in Sources */,
+				FA30211B2CB5773400C45EDF /* PeripheralDeviceManager.swift in Sources */,
+				FA3021222CB5773400C45EDF /* ColorsCollectionCellView.swift in Sources */,
+				FA30211E2CB5773400C45EDF /* EditColorActionButtonView.swift in Sources */,
+				FA30211D2CB5773400C45EDF /* EditColorPanelViewModel.swift in Sources */,
+				FA3021262CB5777C00C45EDF /* AppModel.swift in Sources */,
+				FA30211F2CB5773400C45EDF /* EditColorSliderView.swift in Sources */,
 				FA3020FE2CB573BD00C45EDF /* LampyridApp.swift in Sources */,
+				FA3021232CB5773400C45EDF /* ColorsCollectionItem.swift in Sources */,
+				FA3021242CB5773400C45EDF /* ColorsCollectionView.swift in Sources */,
+				FA30211C2CB5773400C45EDF /* EditColorPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +366,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,9 +374,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.undefined.Lampyrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +398,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +406,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.undefined.Lampyrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
