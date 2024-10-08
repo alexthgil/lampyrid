@@ -6,7 +6,7 @@ Lampyrid is an intuitive mock app designed to give you full control over your Bl
 Developer can configure Bluetooth JDY-08 for working as lamp.
 (Lampyrid any of several beetles of the family Lampyridae, comprising the fireflies.)
 
-![ScreenShot1](bt_cpu.jpg)
-![](https://github.com/alexthgil/lampyrid/blob/main/device_colors.gif)
-![](https://github.com/alexthgil/lampyrid/blob/main/edit_color.gif)
-![](https://github.com/alexthgil/lampyrid/blob/main/device_example.gif)
+<img src="bt_cpu.jpg" alt="" width="200"/>
+<img src="https://github.com/alexthgil/lampyrid/blob/main/device_colors.gif" alt="" width="200"/>
+<img src="https://github.com/alexthgil/lampyrid/blob/main/edit_color.gif" alt="" width="200"/>
+<img src="https://github.com/alexthgil/lampyrid/blob/main/device_example.gif" alt="" width="200"/>
